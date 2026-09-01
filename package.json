@@ -1,0 +1,38 @@
+{
+  "name": "political-thinking-skill",
+  "version": "0.1.0",
+  "description": "Installer + payload for the political-thinking Agent Skill: a four-dimension framework (stakeholders, real power flow, rules as both order and weapon, time variable) for analyzing workplace politics, business battles, and public-sector decisions. 政治思维技能安装器：用四维度框架（利益相关方、权力流向、规则双重性、时间变量）分析职场、商业与体制内博弈问题。",
+  "keywords": [
+    "agent-skill",
+    "skill",
+    "political-thinking",
+    "workplace",
+    "negotiation",
+    "decision-making",
+    "llm"
+  ],
+  "license": "MIT",
+  "author": "niceforbear",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceforbear/political-thinking-skill.git"
+  },
+  "homepage": "https://github.com/niceforbear/political-thinking-skill",
+  "bugs": {
+    "url": "https://github.com/niceforbear/political-thinking-skill/issues"
+  },
+  "bin": {
+    "political-thinking-skill": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "SKILL.md",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "references"
+  ],
+  "engines": {
+    "node": ">=16.7"
+  }
+}
