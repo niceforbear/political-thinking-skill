@@ -35,6 +35,10 @@ function home() {
 function knownLocations() {
   return [
     { agent: "Qoder", dir: path.join(home(), ".qoder", "skills") },
+    { agent: "Qoder CN", dir: path.join(home(), ".qoder-cn", "skills") },
+    { agent: "QoderWork", dir: path.join(home(), ".qoderwork", "skills") },
+    { agent: "QoderWork CN", dir: path.join(home(), ".qoderworkcn", "skills") },
+    { agent: "WorkBuddy", dir: path.join(home(), ".workbuddy", "skills") },
     { agent: "Claude Code", dir: path.join(home(), ".claude", "skills") },
     { agent: "Codex CLI", dir: path.join(home(), ".codex", "skills") },
     { agent: "Generic (XDG)", dir: path.join(home(), ".config", "agents", "skills") },
